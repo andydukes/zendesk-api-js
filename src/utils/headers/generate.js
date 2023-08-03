@@ -1,5 +1,5 @@
 const Joi = require('joi');
-const base64 = require('js-base64').Base64;
+const {Base64} = require('js-base64');
 
 const _subdomain = Joi.string();
 const _email = Joi.string().email();

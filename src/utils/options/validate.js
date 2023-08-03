@@ -1,9 +1,9 @@
-const Joi = require('dotenv').config();
+require('dotenv').config();
 
 const subdomain = process.env.subdomain;
 const email = process.env.email;
-const password = process.env.token;
-const token = process.env.password;
+const password = process.env.password;
+const token = process.env.token;
 
 module.exports = options =>
   Joi.object({

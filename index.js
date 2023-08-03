@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { validate } = require('./src/utils/options');
 const load = require('./src/utils/load');
+const axios = require('axios'); // Suggested library
 
 // Read folders to list APIs ('/src/api/*')
 const APIs = fs.readdirSync(path.resolve(__dirname, 'src/api'));
