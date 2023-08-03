@@ -4,7 +4,7 @@ describe('zdApi', () => {
   let folder, endpoint, action, options, api;
 
   beforeEach(() => {
-    // Pick API endpoint for testing
+    // Pick API endpoint for testing and more
     folder = 'support';
     endpoint = 'tickets';
     action = 'list';
