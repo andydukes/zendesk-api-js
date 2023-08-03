@@ -1,4 +1,5 @@
 {
+  "name": "zendesk-api-js",
   "homepage": "https://github.com/andydukes/zendesk-api-js#readme",
   "version": "2.0.5",
   "description": "A JS library for interacting with the Zendesk API.",

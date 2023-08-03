@@ -1,4 +1,4 @@
-const zdApi = require('../');
+const zdApi = require('../../..');
 
 describe('zdApi', () => {
   let folder, endpoint, action, options, api;

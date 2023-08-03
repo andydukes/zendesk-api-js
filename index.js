@@ -3,6 +3,7 @@ const path = require('path');
 const { validate } = require('./src/utils/options');
 const load = require('./src/utils/load');
 const axios = require('axios'); // Suggested library
+const { support, sunshine } = zdApi.init(options);
 
 // Read folders to list APIs ('/src/api/*')
 const APIs = fs.readdirSync(path.resolve(__dirname, 'src/api'));
